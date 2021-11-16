@@ -307,7 +307,12 @@ input[type="checkbox"] {
   
   /*code for home page*/
   .slideshow-container {
-	  margin: auto;
+	  height: 320px;
+        min-width: 260px;
+        max-width: 640px;
+        margin: auto;
+        margin-top: 20px;
+        position: relative;
   }
   
   
