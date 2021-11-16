@@ -319,8 +319,19 @@ input[type="checkbox"] {
   #congress {
 	  height: 500px;
   }
-  
-  
+  #front_text {
+	  margin: 20 0 10 10;
+  }
+  .boxed {
+      border: 3px solid black;
+  }
+  #text_home {
+      color: #6D8FF4;
+      font-size: 20px;
+      margin: 10 0 10 10;
+      margin-bottom: 27px;
+  }
+	  
   
   /*end of code for home page*/
 
