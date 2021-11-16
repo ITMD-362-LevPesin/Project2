@@ -2,52 +2,60 @@
  modular scale : 1.333 Perfect Fourth
  https://www.modularscale.com/?16&px&1.333
 */
-html{
+html {
   font-family: 'Lora', Calibre, serif;
-  font-size: 16px; /* base */
-  line-height: 1.182em; 
+  font-size: 16px;
+ /* base */
+  line-height: 1.182em;
   text-rendering: optimizeLegibility;
   background-color: rgb(248,248,255);
 }
 
 /*code for header*/
-#main-header{
+#main-header {
   height: 6em;
   background: rgb(70,130,180);
   padding-left: 1em;
 }
-.container{
+
+.container {
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
 }
-#header-container{
+
+#header-container {
   position: relative;
 }
-#logo{
+
+#logo {
   padding-left: 8px;
   float: left;
 }
-#logo a{
+
+#logo a {
   padding: 4px;
   display: block;
 }
-#org-name{
+
+#org-name {
   margin-left: 1em;
   margin-top: 1.5em;
   color: white;
   line-height: 1.5em;
 }
 /*code for navigation bar*/
-#navbar1{
+#navbar1 {
   background-color: #47739E;
   overflow: hidden;
 }
-#navbar1-container{
+
+#navbar1-container {
   position: relative;
   float: left;
   width: 100%;
 }
+
 #navbar1 ul {
   position: relative;
   float: left;
@@ -56,32 +64,37 @@ html{
   padding: 0;
   margin: 0;
 }
+
 #navbar1 ul li {
   display: block;
   position: relative;
   float: left;
   right: 50%;
 }
+
 #navbar1 ul li a {
   display: block;
   text-decoration: none;
   padding: 10px 20px;
-  color: #F8FBFF
+  color: #F8FBFF;
 }
+
 #navbar1 ul li a:hover {
   background-color: #0E467D;
 }
+
 #navbar1 #underline {
   text-decoration: underline;
 }
 
 /*code for the footer*/
-footer{
+footer {
   background: rgb(70,130,180);
   height: 6em;
   margin-top: 4em;
 }
-#footer-container{
+
+#footer-container {
   text-align: left;
   color: rgb(248,248,255);
   font-size: 0.9em;
@@ -91,60 +104,75 @@ footer{
 
 
 /*code for the sign up page*/
-#sign-form{
+#sign-form {
   background-image: url(../img/hands.jpg);
 }
+
 #form-head {
-   text-align: center;
-   color: #0C69B7;
-   font-size: 1.777em; /* 28.43px */
-   line-height: 1.5em;
+  text-align: center;
+  color: #0C69B7;
+  font-size: 1.777em;
+ /* 28.43px */
+  line-height: 1.5em;
 }
+
 #form-description {
-   text-align: center;
-   font-size: 1.333em; /* 21.328px */
-   line-height: 1.25em;
+  text-align: center;
+  font-size: 1.333em;
+ /* 21.328px */
+  line-height: 1.25em;
 }
+
 label {
   display: block;
 }
-.label-input{
-   margin-top: 1em;
+
+.label-input {
+  margin-top: 1em;
 }
-form{
-   background-color: rgba(255,255,255,0.5);
-   margin: 2em 25px 2em 25px;
-   padding: 1em 1em 0.5em 1em;
-   border: none;
-   border-width: 0.05em;
-   border-color: #5a5a5a;
+
+form {
+  background-color: rgba(255,255,255,0.5);
+  margin: 2em 25px 2em 25px;
+  padding: 1em 1em 0.5em 1em;
+  border: none;
+  border-width: 0.05em;
+  border-color: #5a5a5a;
 }
+
 input {
   box-sizing: border-box;
   width: 100%;
   padding: 10px;
   margin: 10px 0 10px 0;
-  }
+}
+
 input[type="checkbox"] + label {
   display: inline;
 }
+
 input[type="checkbox"] {
   width: 0.75em;
   height: 0.75em;
 }
+
 #text {
   display: none;
-  font-size: 0.9em; /* 14.4px */
+  font-size: 0.9em;
+ /* 14.4px */
   color: #3A6629;
   text-align: center;
 }
+
 #news-verification {
-   margin-top: 0;
+  margin-top: 0;
 }
+
 #input-submit {
   margin-top: 0.75em;
   text-align: center;
 }
+
 #submit {
   background-color: #0C69B7;
   color: white;
@@ -153,238 +181,181 @@ input[type="checkbox"] {
   width: 60%;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
-  font-size: 1em; /* 16px */
+  font-size: 1em;
+ /* 16px */;
 }
 /*end of the code for the sign up page*/
 
 
-/*code for home page*/
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  padding-top: 10px;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #6D8FF4;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #6D8FF4;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-#front_text {
-	  margin: 10 0 5 5;
-  }
-  .boxed {
-      border: 1px solid black;
-	  margin: auto;
-  }
-  #text_home {
-      color: #6D8FF4;
-      font-size: 20px;
-      margin: auto;
-      margin-bottom: 12px;
-  }
-/*end of code for home page*/
-
-
 /*Tablet screen*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   /* changes for sign up page */
-  #sign-form{
+  #sign-form {
     background-image: url(../img/hands_tablet.jpg);
   }
+
   form {
     width: 60%;
     margin-left: 18%;
   } /* end of changes for sign up page */
 
-  #header-container{
+  #header-container {
     width: 90%;
   }
-  #org-name{
+
+  #org-name {
     font-size: 1.25em;
   }
-  footer{
+
+  footer {
     margin-bottom: 0;
     margin-top: 15em;
   }
-  #footer-container{
+
+  #footer-container {
     margin-left: 5%;
   }
-  /*changes for home page*/
-  #front_text {
-	  margin: 15 0 8 8;
-  }
-  .boxed {
-      border: 2px solid black;
-	  margin: 7 7 7 7;
-  }
-  #text_home {
-      color: #6D8FF4;
-      font-size: 20px;
-      margin: 7 0 7 7;
-      margin-bottom: 20px;
-  }
-  /*end of changes for home page*/
 }
 
   
 /*Desktop Screen*/  
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
   
   /* changes for sign up page */
   .label-input {
     display: block;
-    width:  60%;
+    width: 60%;
     margin-left: 20%;
   }
-  #sign-form{
+
+  #sign-form {
     background-image: url(../img/hands_desktop.jpg);
   }
+
   form {
     width: 40%;
     margin: 2em 20% 0.5em 30%;
   }
+
   #submit {
     width: 30%;
   }
   /*end of the code for the sign up page*/ 
-  
-  /*code for home page*/
-  .slideshow-container {
-	  height: 500px;
-	  position: relative;
-  }
-  #front {
-	  height: 500px;
-  }
-  #locations {
-	  height: 500px;
-  }
-  #congress {
-	  height: 500px;
-  }
-  #front_text {
-	  margin: 20 0 10 10;
-  }
-  .boxed {
-      border: 3px solid black;
-	  margin: 10 10 10 10;
-  }
-  #text_home {
-      color: #6D8FF4;
-      font-size: 20px;
-      margin: 10 0 10 10;
-      margin-bottom: 27px;
-  }
-	  
-  
-  /*end of code for home page*/
 
-  #header-container{
+  #header-container {
     width: 100%;
   }
-  img{
+
+  img {
     width: 125px;
     height: 127px;
   }
-  #main-header{
+
+  #main-header {
     height: 8em;
   }
-  #org-name{
+
+  #org-name {
     font-size: 1.777em;
   }
-  #navbar1-container{
+
+  #navbar1-container {
     font-size: 1.3em;
   }
+
   #navbar1 ul li a {
     padding: 10px 80px;
   }
-  #footer-container{
+
+  #footer-container {
     margin-left: 2.5%;
+  }
+}
+
+/*code for the event page*/
+#events-page {
+  background-image: url(../img/sky.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.events {
+  margin-left: 20px;
+}
+
+.ue-head {
+  color: #1434A4;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.pe-head {
+  color: #9B5B34;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.ue-list {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.pe-list {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+ol {
+  clear: both;
+  overflow: hidden;
+}
+
+.ue {
+  margin-top: 13px;
+}
+
+.pe {
+  margin-top: 50px;
+}
+
+.philosophy {
+  border: 2px solid #000401;
+  margin-top: 10px;
+}
+
+.thanksgiving {
+  border: 2px solid #000401;
+  margin-top: 10px;
+}
+
+.chrismas {
+  border: 2px solid #000401;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 980px) {
+  .pe {
+    margin-top: 15px;
+  }
+
+  .philosophy {
+    border: 1.5px solid #4E545C;
+    margin-top: 8px;
+  }
+
+  .thanksgiving {
+    border: 1.5px solid #4E545C;
+    margin-top: 8px;
+  }
+
+  .chrismas {
+    border: 1.5px solid #4E545C;
+    margin-top: 8px;
   }
 }
