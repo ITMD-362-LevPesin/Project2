@@ -165,6 +165,7 @@ input[type="checkbox"] {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  padding-top: 10px;
 }
 
 /* Hide the images by default */
