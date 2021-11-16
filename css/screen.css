@@ -231,10 +231,6 @@ input[type="checkbox"] {
 }
 
 /*code for the event page*/
-body {
- font-family: 'Varela Round', sans-serif;
-}
-
 h2{
     font-weight: bold;
     font-size: 30px;
