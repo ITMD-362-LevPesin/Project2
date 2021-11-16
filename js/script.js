@@ -11,4 +11,11 @@ function myFunction() {
      text.style.display = "none";
   }
 }
+document.getElementById("theForm").onsubmit = function() {
+  submitFunction();
+}
+
+function submitFunction() {
+  alert("The confirmation was sent to provided email address. Check your inbox and verify the email.");
+}
 /* end of code for the sign up page*/
