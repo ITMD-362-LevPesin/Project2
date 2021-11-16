@@ -295,7 +295,7 @@ input[type="checkbox"] {
   #footer-container{
     margin-left: 5%;
   }
-  
+  /*changes for home page*/
   #front_text {
 	  margin: 15 0 8 8;
   }
@@ -309,6 +309,7 @@ input[type="checkbox"] {
       margin: 7 0 7 7;
       margin-bottom: 20px;
   }
+  /*end of changes for home page*/
 }
 
   
