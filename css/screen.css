@@ -70,7 +70,6 @@ html{
 }
 #navbar1 ul li a:hover {
   background-color: #0E467D;
-  
 }
 #navbar1 #underline {
   text-decoration: underline;
@@ -80,7 +79,6 @@ html{
 #sign-form{
   background-image: url(../img/hands.jpg);
 }
-
 #form-head {
    text-align: center;
    color: #0C69B7;
@@ -146,7 +144,6 @@ input[type="checkbox"] {
 
 
 
-
 /*Tablet screen*/
 @media screen and (min-width: 768px){
   /* changes for sign up page */
@@ -156,7 +153,8 @@ input[type="checkbox"] {
   form {
     width: 60%;
     margin-left: 18%;
-  }
+  } /* end of changes for sign up page */
+  
   #header-container{
     width: 90%;
   }
@@ -164,8 +162,6 @@ input[type="checkbox"] {
     font-size: 1.25em;
   }
 }
-/* end of changes for sign up page */
-
 
   
 /*Desktop Screen*/  
