@@ -307,17 +307,17 @@ input[type="checkbox"] {
   
   /*code for home page*/
   .slideshow-container {
-	  height: 320px;
+	  height: 400px;
 	  position: relative;
   }
   #front {
-	  height: 320px;
+	  height: 400px;
   }
   #locations {
-	  height: 320px;
+	  height: 400px;
   }
   #congress {
-	  height: 320px;
+	  height: 400px;
   }
   
   
