@@ -157,6 +157,7 @@ input[type="checkbox"] {
 }
 /*end of the code for the sign up page*/
 
+
 /*code for home page*/
 * {box-sizing:border-box}
 
@@ -303,6 +304,14 @@ input[type="checkbox"] {
     width: 30%;
   }
   /*end of the code for the sign up page*/ 
+  
+  /*code for home page*/
+  .slideshow-container {
+	  height: 100px;
+  }
+  
+  
+  /*end of code for home page*/
 
   #header-container{
     width: 100%;
