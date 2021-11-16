@@ -324,6 +324,7 @@ input[type="checkbox"] {
   }
   .boxed {
       border: 3px solid black;
+	  margin: 10 10 10 10;
   }
   #text_home {
       color: #6D8FF4;
