@@ -254,6 +254,20 @@ input[type="checkbox"] {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+#front_text {
+	  margin: 10 0 5 5;
+  }
+  .boxed {
+      border: 1px solid black;
+	  margin: auto;
+  }
+  #text_home {
+      color: #6D8FF4;
+      font-size: 20px;
+      margin: auto;
+      margin-bottom: 12px;
+  }
 /*end of code for home page*/
 
 
@@ -280,6 +294,20 @@ input[type="checkbox"] {
   }
   #footer-container{
     margin-left: 5%;
+  }
+  
+  #front_text {
+	  margin: 15 0 8 8;
+  }
+  .boxed {
+      border: 2px solid black;
+	  margin: 7 7 7 7;
+  }
+  #text_home {
+      color: #6D8FF4;
+      font-size: 20px;
+      margin: 7 0 7 7;
+      margin-bottom: 20px;
   }
 }
 
