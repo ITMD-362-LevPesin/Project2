@@ -231,3 +231,62 @@ input[type="checkbox"] {
 }
 
 /*code for the event page*/
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10%;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.split {
+  height: 100\%;
+  width: 50%;
+  position: fixed;
+  padding-top: 15px;
+}
+
+.left {
+  left: 0;
+  background-color: #44A0D1;
+  
+  background-image: url('left.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+.right {
+  right: 0;
+  background-color: #cccccc;
+}
+
+ol{
+  clear: both;
+    overflow: hidden;
+    display: inline;
+}
+
+
+.centered {
+  margin-top: 60%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.philosophy{
+   border: 1px solid #cccccc;
+}
+
+.thanksgiving{
+border: 1px solid #cccccc;
+}
+
+.chrismas{
+border: 1px solid #cccccc;
+}
+
