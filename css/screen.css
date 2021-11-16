@@ -308,12 +308,18 @@ input[type="checkbox"] {
   /*code for home page*/
   .slideshow-container {
 	  height: 320px;
-        min-width: 260px;
-        max-width: 640px;
-        margin: auto;
-        margin-top: 20px;
-        position: relative;
+	  position: relative;
   }
+  #front {
+	  height: 320px;
+  }
+  #locations {
+	  height: 320px;
+  }
+  #congress {
+	  height: 320px;
+  }
+  
   
   
   /*end of code for home page*/
