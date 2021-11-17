@@ -189,6 +189,10 @@ input[type="checkbox"] {
 /*code for home page*/
 .slider{
   background-color: #f9f9f9;
+  max-width: 90%;
+  padding-top: 10px;
+  margin: auto;
+  position: relative;
 }
 
 .slider img {
@@ -199,10 +203,31 @@ input[type="checkbox"] {
 }
 .slider p{
   text-align: center;
+  color: #FFB860;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
 }
 .home_image {
 	width: 100%;
 	height: 500px;
+	vertical-align: middle;
+	overflow: hidden;
+}
+#front_text {
+	  margin: auto;
+  }
+.boxed {
+      border: 1px solid black;
+	  margin: auto;
+}
+#text_home {
+      color: #6D8FF4;
+      font-size: 20px;
+      margin: auto;
+      margin-bottom: 12px;
 }
 /*end of code for home page*/
 
