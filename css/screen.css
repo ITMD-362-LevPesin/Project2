@@ -200,6 +200,18 @@ input[type="checkbox"] {
 .slider p{
   text-align: center;
 }
+#front {
+	  height: auto;
+	  width: 100%;
+}
+#locations {
+	  height: auto;
+	  width: 100%;
+}
+#congress {
+	  height: auto;
+	  width: 100%;
+}
 /*end of code for home page*/
 
 
