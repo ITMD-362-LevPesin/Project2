@@ -341,12 +341,15 @@ input[type="checkbox"] {
   }
   #front {
 	  height: 500px;
+	  width: 100%;
   }
   #locations {
 	  height: 500px;
+	  width: 100%;
   }
   #congress {
 	  height: 500px;
+	  width: 100%;
   }
   #front_text {
 	  margin: 20 0 10 10;
