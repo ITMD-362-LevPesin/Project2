@@ -186,7 +186,7 @@ input[type="checkbox"] {
 }
 /*end of the code for the sign up page*/
 
-/*code for home page*/
+  /*code for home page*/
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -298,18 +298,18 @@ input[type="checkbox"] {
       margin-bottom: 12px;
 }
 #front {
-	  height: 500px;
+	  height: auto;
 	  width: 100%;
 }
 #locations {
-	  height: 500px;
+	  height: auto;
 	  width: 100%;
 }
 #congress {
-	  height: 500px;
+	  height: auto;
 	  width: 100%;
 	  
-  }
+}
 /*end of code for home page*/
 
 
@@ -341,7 +341,7 @@ input[type="checkbox"] {
   #footer-container {
     margin-left: 5%;
   }
-  
+
   /*changes for home page*/
   #front_text {
 	  margin: 15px 0 8px 8px;
@@ -357,15 +357,15 @@ input[type="checkbox"] {
       margin-bottom: 20px;
   }
   #front {
-	  height: 500px;
+	  height: auto;
 	  width: 100%;
   }
   #locations {
-	  height: 500px;
+	  height: auto;
 	  width: 100%;
   }
   #congress {
-	  height: 500px;
+	  height: auto;
 	  width: 100%;
 	  
   }
@@ -425,95 +425,6 @@ input[type="checkbox"] {
   #footer-container {
     margin-left: 2.5%;
   }
-}
-
-/*code for the event page*/
-#events-page {
-  background-image: url(../img/sky.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.events {
-  margin-left: 20px;
-}
-
-.ue-head {
-  color: #1434A4;
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.pe-head {
-  color: #9B5B34;
-  font-weight: bold;
-  font-size: 30px;
-  margin-top: 50px;
-}
-
-h3 {
-  font-weight: bold;
-}
-
-.ue-list {
-  margin-top: 20px;
-  font-size: 16px;
-}
-
-.pe-list {
-  margin-top: 15px;
-  font-size: 18px;
-}
-
-ol {
-  clear: both;
-  overflow: hidden;
-}
-
-.ue {
-  margin-top: 13px;
-}
-
-.pe {
-  margin-top: 50px;
-}
-
-.philosophy {
-  border: 2px solid #000401;
-  margin-top: 10px;
-}
-
-.thanksgiving {
-  border: 2px solid #000401;
-  margin-top: 10px;
-}
-
-.chrismas {
-  border: 2px solid #000401;
-  margin-top: 10px;
-}
-
-@media screen and (min-width: 980px) {
-  .pe {
-    margin-top: 15px;
-  }
-
-  .philosophy {
-    border: 1.5px solid #4E545C;
-    margin-top: 8px;
-  }
-
-  .thanksgiving {
-    border: 1.5px solid #4E545C;
-    margin-top: 8px;
-  }
-
-  .chrismas {
-    border: 1.5px solid #4E545C;
-    margin-top: 8px;
-  }
-  
   /*code for home page*/
   .slideshow-container {
 	  height: 500px;
@@ -546,4 +457,87 @@ ol {
       margin-bottom: 27px;
   }
   /*end of code for home page*/
+}
+
+ .pe {
+    margin-top: 15px;
+  }
+
+  .philosophy {
+    border: 1.5px solid #4E545C;
+    margin-top: 8px;
+  }
+
+  .thanksgiving {
+    border: 1.5px solid #4E545C;
+    margin-top: 8px;
+  }
+
+  .chrismas {
+    border: 1.5px solid #4E545C;
+    margin-top: 8px;
+  }
+
+/*code for the event page*/
+#events-page {
+  background-image: url(../img/sky.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.events {
+  margin-left: 20px;
+}
+
+.ue-head {
+  color: #1434A4;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.pe-head {
+  color: #9B5B34;
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 50px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.ue-list {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.pe-list {
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.ue {
+  margin-top: 13px;
+}
+
+.pe {
+  margin-top: 50px;
+}
+
+.philosophy {
+  border: 2px solid #000401;
+  margin-top: 10px;
+}
+
+.thanksgiving {
+  border: 2px solid #000401;
+  margin-top: 10px;
+}
+
+.chrismas {
+  border: 2px solid #000401;
+  margin-top: 10px;
 }
