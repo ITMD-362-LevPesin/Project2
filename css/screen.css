@@ -186,132 +186,6 @@ input[type="checkbox"] {
 }
 /*end of the code for the sign up page*/
 
-  /*code for home page*/
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  padding-top: 10px;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #FFB860;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #FFB860;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  text-align: center;
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-#front_text {
-	  margin: 10px 0 5px 5px;
-}
-.boxed {
-      border: 1px solid black;
-	  margin: auto;
-}
-.text_home {
-      color: #6D8FF4;
-      font-size: 20px;
-      margin: auto;
-      margin-bottom: 12px;
-}
-#front {
-	  height: auto;
-	  width: 100%;
-}
-#locations {
-	  height: auto;
-	  width: 100%;
-}
-#congress {
-	  height: auto;
-	  width: 100%;
-	  
-}
-/*end of code for home page*/
-
 
 /*Tablet screen*/
 @media screen and (min-width: 768px) {
@@ -341,35 +215,6 @@ input[type="checkbox"] {
   #footer-container {
     margin-left: 5%;
   }
-
-  /*changes for home page*/
-  #front_text {
-	  margin: 15px 0 8px 8px;
-  }
-  .boxed {
-      border: 2px solid black;
-	  margin: 7px 7px 7px 7px;
-  }
-  .text_home {
-      color: #6D8FF4;
-      font-size: 20px;
-      margin: 7px 0 7px 7px;
-      margin-bottom: 20px;
-  }
-  #front {
-	  height: auto;
-	  width: 100%;
-  }
-  #locations {
-	  height: auto;
-	  width: 100%;
-  }
-  #congress {
-	  height: auto;
-	  width: 100%;
-	  
-  }
-  /*end of changes for home page*/
 }
 
   
@@ -425,38 +270,6 @@ input[type="checkbox"] {
   #footer-container {
     margin-left: 2.5%;
   }
-  /*code for home page*/
-  .slideshow-container {
-	  height: 500px;
-	  position: relative;
-  }
-  #front {
-	  height: 500px;
-	  width: 100%;
-  }
-  #locations {
-	  height: 500px;
-	  width: 100%;
-  }
-  #congress {
-	  height: 500px;
-	  width: 100%;
-	  
-  }
-  #front_text {
-	  margin: 20px 0 10px 10px;
-  }
-  .boxed {
-      border: 3px solid black;
-	  margin: 10px 10px 10px 10px;
-  }
-  .text_home {
-      color: #6D8FF4;
-      font-size: 20px;
-      margin: 10px 0 10px 10px;
-      margin-bottom: 27px;
-  }
-  /*end of code for home page*/
 }
 
  .pe {
