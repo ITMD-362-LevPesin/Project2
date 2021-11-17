@@ -251,6 +251,7 @@ input[type="checkbox"] {
 
 /* The dots/bullets/indicators */
 .dot {
+  text-align: center;
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -284,13 +285,13 @@ input[type="checkbox"] {
 }
 
 #front_text {
-	  margin: 10 0 5 5;
+	  margin: 10px 0 5px 5px;
 }
 .boxed {
       border: 1px solid black;
 	  margin: auto;
 }
-#text_home {
+.text_home {
       color: #6D8FF4;
       font-size: 20px;
       margin: auto;
@@ -343,16 +344,16 @@ input[type="checkbox"] {
   
   /*changes for home page*/
   #front_text {
-	  margin: 15 0 8 8;
+	  margin: 15px 0 8px 8px;
   }
   .boxed {
       border: 2px solid black;
-	  margin: 7 7 7 7;
+	  margin: 7px 7px 7px 7px;
   }
-  #text_home {
+  .text_home {
       color: #6D8FF4;
       font-size: 20px;
-      margin: 7 0 7 7;
+      margin: 7px 0 7px 7px;
       margin-bottom: 20px;
   }
   #front {
@@ -532,16 +533,16 @@ ol {
 	  
   }
   #front_text {
-	  margin: 20 0 10 10;
+	  margin: 20px 0 10px 10px;
   }
   .boxed {
       border: 3px solid black;
-	  margin: 10 10 10 10;
+	  margin: 10px 10px 10px 10px;
   }
-  #text_home {
+  .text_home {
       color: #6D8FF4;
       font-size: 20px;
-      margin: 10 0 10 10;
+      margin: 10px 0 10px 10px;
       margin-bottom: 27px;
   }
   /*end of code for home page*/
