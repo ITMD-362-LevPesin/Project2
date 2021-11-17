@@ -210,7 +210,7 @@ input[type="checkbox"] {
 }
 #congress {
 	  height: auto;
-	  width: 100%;
+	  width: 700%;
 }
 /*end of code for home page*/
 
@@ -230,15 +230,15 @@ input[type="checkbox"] {
   /*code for home page*/
   #front {
 	  height: auto;
-	  width: 100%;
+	  width: 80%;
   }
   #locations {
 	  height: auto;
-	  width: 100%;
+	  width: 80%;
   }
   #congress {
 	  height: auto;
-	  width: 100%;
+	  width: 80%;
   }
   /*end of code for home page*/
 
@@ -290,15 +290,15 @@ input[type="checkbox"] {
   /*code for home page*/
   #front {
 	  height: 500px;
-	  width: 100%;
+	  width: 80%;
   }
   #locations {
 	  height: 500px;
-	  width: 100%;
+	  width: 80%;
   }
   #congress {
 	  height: 500px;
-	  width: 100%;
+	  width: 80%;
 	  
   }
   /*end of code for home page*/
