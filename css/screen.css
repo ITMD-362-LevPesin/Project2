@@ -199,6 +199,20 @@ input[type="checkbox"] {
 }
 .slider p{
   text-align: center;
+  color: #2232CD;
+}
+front_text {
+	  margin: 10px 0 5px 5px;
+}
+.boxed {
+      border: 1px solid black;
+	  margin: auto;
+}
+.text_home {
+      color: #6D8FF4;
+      font-size: 20px;
+      margin: auto;
+      margin-bottom: 12px;
 }
 #front {
 	  height: auto;
@@ -228,6 +242,19 @@ input[type="checkbox"] {
   } /* end of changes for sign up page */
   
   /*code for home page*/
+  front_text {
+	  margin: 10px 0 5px 5px;
+}
+  .boxed {
+      border: 1px solid black;
+	  margin: auto;
+}
+.text_home {
+      color: #6D8FF4;
+      font-size: 20px;
+      margin: auto;
+      margin-bottom: 12px;
+}
   #front {
 	  height: auto;
 	  width: 80%;
@@ -288,6 +315,19 @@ input[type="checkbox"] {
   /*end of the code for the sign up page*/ 
   
   /*code for home page*/
+  front_text {
+	  margin: 10px 0 5px 5px;
+}
+.boxed {
+      border: 1px solid black;
+	  margin: auto;
+}
+.text_home {
+      color: #6D8FF4;
+      font-size: 20px;
+      margin: auto;
+      margin-bottom: 12px;
+}
   #front {
 	  height: 500px;
 	  width: 60%;
