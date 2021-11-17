@@ -226,6 +226,21 @@ input[type="checkbox"] {
     width: 60%;
     margin-left: 18%;
   } /* end of changes for sign up page */
+  
+  /*code for home page*/
+  #front {
+	  height: auto;
+	  width: 100%;
+  }
+  #locations {
+	  height: auto;
+	  width: 100%;
+  }
+  #congress {
+	  height: auto;
+	  width: 100%;
+  }
+  /*end of code for home page*/
 
   #header-container {
     width: 90%;
