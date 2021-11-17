@@ -186,6 +186,22 @@ input[type="checkbox"] {
 }
 /*end of the code for the sign up page*/
 
+/*code for home page*/
+.slider{
+  background-color: #f9f9f9;
+}
+
+.slider img {
+  margin: 0 auto;
+  max-width: 90%;
+  overflow:hidden;
+  vertical-align: middle;
+}
+.slider p{
+  text-align: center;
+}
+/*end of code for home page*/
+
 
 /*Tablet screen*/
 @media screen and (min-width: 768px) {
@@ -215,6 +231,8 @@ input[type="checkbox"] {
   #footer-container {
     margin-left: 5%;
   }
+  
+  
 }
 
   
