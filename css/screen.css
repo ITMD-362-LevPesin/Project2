@@ -189,7 +189,6 @@ input[type="checkbox"] {
 /*code for home page*/
 .slider{
   background-color: #f9f9f9;
-  max-width: 1000px;
 }
 
 .slider img {
@@ -197,7 +196,6 @@ input[type="checkbox"] {
   overflow:hidden;
   vertical-align: middle;
   height: 500px;
-  width: 100%;
 }
 .slider p{
   text-align: center;
